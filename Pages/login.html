@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Craftora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./Test1-main/css/style.css">
+</head>
+
+<body>
+    <div class="auth-page">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-5">
+                    <div class="card shadow-lg border-0 auth-card">
+                        <div class="card-body p-5">
+                            <div class="text-center mb-4">
+                                <img src="images/logo.png" alt="Craftora" class="auth-logo mb-2"
+                                    onerror="this.remove()">
+                                <i class="fas fa-user-circle text-primary fa-3x mb-3"></i>
+                                <h2 class="fw-bold">Welcome Back</h2>
+                                <p class="text-muted">Login to continue shopping</p>
+                            </div>
+
+                            <form method="POST" action="">
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                        <input type="email" class="form-control" id="email" name="email" required>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Password</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                        <input type="password" class="form-control" id="password" name="password"
+                                            required>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="remember">
+                                    <label class="form-check-label" for="remember">Remember me</label>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100 btn-lg mb-3">
+                                    <i class="fas fa-sign-in-alt"></i> Login
+                                </button>
+
+                                <div class="text-center">
+                                    <p class="text-muted">Don't have an account?
+                                        <a href="register.html" class="text-primary fw-bold">Sign Up</a>
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
